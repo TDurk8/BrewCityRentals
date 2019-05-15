@@ -1,0 +1,34 @@
+[18-Dec-2018 00:04:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/tdurkee/public_html/Project/htdocs/bookmark/index.php on line 50
+[18-Dec-2018 00:04:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/tdurkee/public_html/Project/htdocs/bookmark/index.php on line 50
+[18-Dec-2018 00:05:01 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:05:01 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:05:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/tdurkee/public_html/Project/htdocs/bookmark/index.php on line 50
+[18-Dec-2018 00:06:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/tdurkee/public_html/Project/htdocs/bookmark/index.php on line 50
+[18-Dec-2018 00:17:48 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:17:48 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:21:00 UTC] PHP Warning:  include(../../footer.php): failed to open stream: No such file or directory in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:21:00 UTC] PHP Warning:  include(): Failed opening '../../footer.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:21:47 UTC] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:21:47 UTC] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:21:50 UTC] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:21:50 UTC] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:22:34 UTC] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:22:34 UTC] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 39
+[18-Dec-2018 00:26:20 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 22
+[18-Dec-2018 00:29:09 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 22
+[18-Dec-2018 00:30:44 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 22
+[18-Dec-2018 00:34:33 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 22
+[18-Dec-2018 01:43:59 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 22
+[18-Dec-2018 01:44:13 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/tdurkee/public_html/Project/htdocs/bookmark/add.php on line 22

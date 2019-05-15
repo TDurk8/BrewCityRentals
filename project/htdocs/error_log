@@ -1,0 +1,24 @@
+[16-Dec-2018 19:21:53 UTC] PHP Warning:  include(includes/header.html): failed to open stream: No such file or directory in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 3
+[16-Dec-2018 19:21:53 UTC] PHP Warning:  include(): Failed opening 'includes/header.html' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 3
+[16-Dec-2018 19:21:53 UTC] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 16
+[16-Dec-2018 19:21:53 UTC] PHP Warning:  include(): Failed opening 'includes/footer.html' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 16
+[16-Dec-2018 19:25:14 UTC] PHP Warning:  include(includes/header.html): failed to open stream: No such file or directory in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 3
+[16-Dec-2018 19:25:14 UTC] PHP Warning:  include(): Failed opening 'includes/header.html' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 3
+[16-Dec-2018 19:25:14 UTC] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 16
+[16-Dec-2018 19:25:14 UTC] PHP Warning:  include(): Failed opening 'includes/footer.html' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 16
+[16-Dec-2018 19:25:38 UTC] PHP Warning:  include(includes/header.html): failed to open stream: No such file or directory in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 3
+[16-Dec-2018 19:25:38 UTC] PHP Warning:  include(): Failed opening 'includes/header.html' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 3
+[16-Dec-2018 19:25:38 UTC] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 16
+[16-Dec-2018 19:25:38 UTC] PHP Warning:  include(): Failed opening 'includes/footer.html' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/tdurkee/public_html/flex_php/Chapter10/htdocs/index.php on line 16

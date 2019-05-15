@@ -1,0 +1,299 @@
+/*
+	Author	:	Christopher Robinson
+	Email		:	christopher@edg3.co.uk
+	Website	:	http://www.edg3.co.uk/
+*/
+* {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+
+/* general */
+a {
+	color:#777;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#333;
+	text-decoration:none;
+}
+label{
+	font-weight:bolder;
+}
+/* body */
+body {
+	background:#ffffff;
+	color:#555;
+	font:0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
+}
+
+/* header */
+#header {
+	border-bottom:1px solid #999;
+	height:80px;
+	margin:0 auto;
+	width:751px;
+}
+#header h1 {
+	color:#888;
+	font-size:300%;
+	letter-spacing:-3px;
+	text-align:right;
+	padding:5px;
+	margin-bottom:-20px;
+}
+#header h2 {
+	color:#CCC;
+	font-size:200%;
+	letter-spacing:-2px;
+	text-align:right;
+}
+
+/* navigation */
+#navigation {
+	background:#fafafa;
+	border-right:1px solid #999;
+	margin:0 auto;
+	width:750px;
+	height:40px;
+	list-style:none;
+}
+#navigation li {
+	border-left:1px solid #999;
+	float:left;
+	width:149px;
+	list-style:none;
+}
+#navigation a {
+	color:#555;
+	display:block;
+	line-height:40px;
+	text-align:center;
+}
+#navigation a:hover {
+	background:#e3e3e3;
+	color:#555;
+}
+#navigation .active {
+	background:#e3e3e3;
+	color:#777;
+}
+
+#navadmin{
+	color:#C00;
+}
+
+/* content */
+#content {
+	height:auto;
+	margin:0 auto;
+	padding:0 0 20px;
+	width:751px;
+}
+#content h1 {
+	border-bottom:1px dashed #999;
+	font-size:1.8em;
+	padding:20px 0 0;
+}
+#content p {
+	padding:20px 20px 0;
+}
+
+/* footer */
+#footer {
+	border-top:1px solid #999; 
+	height:50px;
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	width:751px;
+}
+
+/* Added by Larry Ullman: */
+.error, .ad {
+	font-weight: bold;
+	color: #C00
+}
+
+input, select, .input {
+	padding: 5px;
+	font-weight: bold;
+	font-size: 1em;
+	color: #008040;
+	background: #FFFFFF;
+	border:1px dotted #004080;
+}
+
+#gridview{
+	display:grid;
+	grid-template-columns: 140px 125px 250px 100px;
+	grid-gap:16px;
+	align-items:center;
+	
+}
+.gridviewbutton{
+	background-color: #DCDCDC;
+	width:100px;
+}
+
+.resultview{
+	display:grid;
+	grid-template-columns: 1fr 200px 75px 110px 50px 50px;
+
+}
+.resultview > * {
+  border-bottom:1px solid #DCDCDC;
+  padding:3px;
+
+}
+.resultheader{
+	grid-template-columns: 1fr 200px 75px 110px 50px 50px;
+	background-color: #DCDCDC;
+	font-weight:bold;
+	padding:5px;
+	font-size:1.19em;
+	border-bottom:1px solid #000;
+	border-top:1px solid #000;
+}
+.resultcenter{
+	text-align:center;
+}
+
+.deletebutton{
+	text-align:center;
+	background-color: #DCDCDC;
+	width:100px;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 1em;
+	color: #008040;
+	border:1px dotted #004080;
+}
+
+.userview{
+	display:grid;
+	grid-template-columns: 150px 150px 1fr 160px 40px 40px;
+}
+.userview > * {
+  border-bottom:1px solid #DCDCDC;
+  padding:3px;
+}
+.userheader{
+	grid-template-columns: 150px 150px 1fr 160px 40px 40px;
+	background-color: #DCDCDC;
+	font-weight:bold;
+	padding:5px;
+	font-size:1.19em;
+	border-bottom:1px solid #000;
+	border-top:1px solid #000;
+}
+.usercenter{
+	text-align:center;
+}
+
+.homepage{
+	float:right;
+	transform: rotate(7deg);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: 15px;
+	margin-top:75px;
+}
+.homepagetext{
+	font-size:1.5em;
+}
+.special{
+	float:left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin:15px;
+}
+.specialview{
+	display:grid;
+	grid-template-columns: 100px 1fr;	
+	margin-top: 15px;
+}
+.specialheader{
+	text-align:right;
+	font-size: 1.55em;
+	font-weight:bolder;
+	margin-bottom:20px;
+
+}
+.specialtext{
+	text-align:left;
+	font-size: 1.55em;
+	margin-bottom:20px;
+	margin-left:6px;
+}
+.banner{
+	  margin-top:20px;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom:50px;
+}
+.custinfogrid{
+	display:grid;
+	border:1px dotted black;
+	grid-template-columns: 125px 225px;
+	float:left;
+	padding-bottom:5px;
+}
+.cust{
+	font-size: 1.40em;
+	padding:5px;
+}
+.cust:nth-child(odd){
+	font-weight:bolder;
+}
+
+.mov{
+	font-size:1.40em;
+	padding:5px;
+}
+.mov:nth-child(odd){
+	font-weight:bolder;
+}
+.movieinfogrid{
+	display:grid;
+	border:1px dotted black;
+	grid-template-columns: 100px 250px;
+	border:1px dotted black;
+		padding-bottom:5px;
+}
+
+.custtitle{
+	float:left;
+}
+
+.movtitle{
+width: 740px;
+}
+
+.metamovie h2{
+	background-color:gray;
+	width: 730px;
+	color:white;
+	font-size:35px;
+	padding:10px;
+	height: 40px;
+}
+
+.metamovie label{
+	font-size:25px;
+}
+
+.item{
+	padding-left: 30px;
+	padding-bottom: 6px;
+	padding-top: 5px;
+	font-size: 24px;
+}
+.item ol{
+	padding-left:45px;
+}
+.item ul{
+	padding-left:45px;
+}
